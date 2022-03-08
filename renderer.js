@@ -1,4 +1,4 @@
-const zerorpc = require("zerorpc")
+const zerorpc = import("zerorpc")
 let client = new zerorpc.Client()
 
 client.connect("tcp://127.0.0.1:4242")
